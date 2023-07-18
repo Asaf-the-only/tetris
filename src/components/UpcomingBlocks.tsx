@@ -21,7 +21,7 @@ function UpcomingBlocks({ upcomingBlocks }: Props) {
                     return (
                       <div
                         key={`${blockIndex}-${rowIndex}-${cellIndex}`}
-                        className={`cell ${cellClass}`}
+                        className={`cell small ${cellClass}`}
                       ></div>
                     );
                   })}
