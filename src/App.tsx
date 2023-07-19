@@ -1,14 +1,14 @@
-import Board from './components/Board';
-import UpcomingBlocks from './components/UpcomingBlocks';
-import { useTetris } from './hooks/useTetris';
+// import Board from './components/Board';
+// import UpcomingBlocks from './components/UpcomingBlocks';
+// import { useTetris } from './hooks/useTetris';
 
 function App() {
-  const { board, startGame, isPlaying, score, upcomingBlocks } = useTetris();
+  // const { board, startGame, isPlaying, score, upcomingBlocks } = useTetris();
 
   return (
     <div className="app">
       <h1>Tetris Game</h1>
-      <Board currentBoard={board} />
+      {/* <Board currentBoard={board} />
       <div className="controls">
         <h2>Score: {score}</h2>
         {isPlaying ? (
@@ -16,9 +16,9 @@ function App() {
         ) : (
           <button onClick={startGame}>New Game</button>
         )}
-      </div>
+      </div> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
