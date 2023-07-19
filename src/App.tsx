@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Tetris</h1>
+      <h1>Tetris Game</h1>
       <Board currentBoard={board} />
       <div className="controls">
         <h2>Score: {score}</h2>
